@@ -22,28 +22,28 @@ We will consider all these barclamps already installed and nodes discovered and 
 <img class="pacemaker-attributes" alt="pacemaker-attributes" src="images/hands-on/03-pacemaker-attributes.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-stonith" data-menu-title="Pacemaker STONITH" -->
+## Pacemaker STONITH
 
-<img class=" " alt=" " src="images/hands-on/ " />
-
-
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
-
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-stonith" alt="pacemaker-stonith" src="images/hands-on/04-pacemaker-stonith.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-mail" data-menu-title="Pacemaker Mail Notifications" -->
+## Pacemaker Mail Notifications
 
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-mail" alt="pacemaker-mail" src="images/hands-on/05-pacemaker-mail-notifications.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-drbd-1" data-menu-title="Pacemaker DRBD" -->
+## Pacemaker DRBD
 
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-drbd-1" alt="pacemaker-drbd-1" src="images/hands-on/06-pacemaker-drbd-1.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-haproxy" data-menu-title="Pacemaker Haproxy" -->
+## Pacemaker Haproxy
+
+<img class="pacemaker-haproxy" alt="pacemaker-haproxy" src="images/hands-on/07-pacemaker-haproxy.png" />
 
 
 <!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
