@@ -1,8 +1,7 @@
 <!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" -->
 <div class="title">
-    <h1>Compute node HA in OpenStack</h1>
-    <h2 style="margin-bottom: 50px;">State of the Nation</h2>
-    <h3><a href="http://www.meetup.com/Manchester-OpenStack-Meetup/events/229510407/">Manchester OpenStack Meetup, Wed 13<sup>th</sup> April</a></h3>
+    <h1>Compute node HA</h1>
+    <h2 style="margin-bottom: 50px;">Hands On</h2>
 </div>
 
 <div class="presenter">
@@ -18,7 +17,3 @@
 *   HA in a typical OpenStack cloud today
 *   When do we need HA for compute nodes?
 *   Architectural challenges
-*   Existing solutions
-*   Advice on choosing a solution
-*   Future work
-*   Upstream community

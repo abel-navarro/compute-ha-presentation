@@ -90,7 +90,6 @@ Evacuate all instances from failed host.
     </div>
 </div>
 
-
 <!-- .slide: data-state="normal" id="health-warning-summary" -->
 # Public Health Warning
 
@@ -104,3 +103,37 @@ Evacuate all instances from failed host.
     Whenever you see “*evacuate*” in a `nova`-related context,
     pretend you saw “*resurrect*”
 </h2>
+
+<!-- .slide: data-state="normal" id="ocf" data-menu-title="OCF RAs" -->
+## `NovaCompute` / `NovaEvacuate` OCF agents
+
+*   Custom OCF Resource Agents (RAs)
+    *   Pacemaker plugins to manage resources
+*   Used by Red Hat / SUSE; contributions by Intel also
+*   Custom fencing agent (`fence_compute`) flags host for recovery
+*   `NovaEvacuate` RA polls for flags, and initiates recovery
+    *   Will keep retrying if recovery not possible
+*   `NovaCompute` RA starts / stops `nova-compute`
+    *   Start waits for recovery to complete
+*   RAs
+    [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
+    (maintained by me)
+
+
+<!-- .slide: data-state="normal" id="pacemaker_remote" data-menu-title="pacemaker_remote" -->
+## `NovaCompute` / `NovaEvacuate` OCF agents
+
+Scalability issue solved by `pacemaker_remote`
+
+*   New(-ish) Pacemaker feature
+*   Allows core cluster nodes to control "remote"
+    nodes via a `pacemaker_remote` proxy service (daemon)
+*   Can scale to very large numbers
+
+
+<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="architecture" -->
+## `NovaCompute` / `NovaEvacuate` OCF agents
+
+<img alt="Architecture with pacemaker_remote" class="full-slide"
+     src="images/pacemaker_remote.svg" />
+
