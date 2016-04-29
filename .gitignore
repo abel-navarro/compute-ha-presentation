@@ -4,3 +4,4 @@ shellinaboxd.screen.pid
 /css/*.css.map
 !/css/shellinabox.css
 !/css/bootstrap.min.css
+*.swp
