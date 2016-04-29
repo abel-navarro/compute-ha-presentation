@@ -46,40 +46,34 @@ We will consider all these barclamps already installed and nodes discovered and 
 <img class="pacemaker-haproxy" alt="pacemaker-haproxy" src="images/hands-on/07-pacemaker-haproxy.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-hawk" data-menu-title="Pacemaker Hawk" -->
+## Pacemaker Hawk
 
-<img class=" " alt=" " src="images/hands-on/ " />
-
-
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
-
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-hawk" alt="pacemaker-hawk" src="images/hands-on/08-pacemaker-hawk.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-deployment-1" data-menu-title="Pacemaker Deployment 1 " -->
+## Pacemaker Deployment 1
 
-<img class=" " alt=" " src="images/hands-on/ " />
-
-
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
-
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-deployment-1" alt="pacemaker-deployment-1" src="images/hands-on/09-pacemaker-deployment-1.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-deployment-2 " data-menu-title="Pacemaker Deployment 2" -->
+## Pacemaker Deployment 2
 
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-deployment-2" alt="pacemaker-deployment-2" src="images/hands-on/10-pacemaker-deployment-2.png" />
 
 
-<!-- .slide: data-state="normal" id=" " data-menu-title=" " -->
-##
+<!-- .slide: data-state="normal" id="pacemaker-drbd-2" data-menu-title="Pacemaker DRBD 2" -->
+## Pacemaker DRBD 2
 
-<img class=" " alt=" " src="images/hands-on/ " />
+<img class="pacemaker-drbd-2" alt="pacemaker-drbd-2" src="images/hands-on/11-pacemaker-drbd-2.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-apply" data-menu-title="Pacemaker Apply " -->
+## Pacemaker Apply
+
+<img class="pacemaker-apply" alt="pacemaker-apply" src="images/hands-on/12-pacemaker-apply.png" />
 
 
 
