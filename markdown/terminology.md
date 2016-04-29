@@ -91,7 +91,7 @@ Evacuate all instances from failed host.
 </div>
 
 <!-- .slide: data-state="normal" id="health-warning-summary" -->
-# Public Health Warning
+## Public Health Warning
 
 *   `nova evacuate` does *not* do evacuation
 *   `nova evacuate` does resurrection (after releasing dependencies)
