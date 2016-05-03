@@ -72,5 +72,3 @@ We will consider all these barclamps already installed and nodes discovered and 
 ## Pacemaker Apply
 
 <img class="pacemaker-apply" alt="pacemaker-apply" src="images/hands-on/12-pacemaker-apply.png" />
-
-
