@@ -45,6 +45,7 @@ We will consider all these barclamps already installed and nodes discovered and 
 
 <img class="pacemaker-haproxy" alt="pacemaker-haproxy" src="images/hands-on/07-pacemaker-haproxy.png" />
 
+
 <!-- .slide: data-state="normal" id="pacemaker-hawk" data-menu-title="Pacemaker Hawk" -->
 ## Pacemaker Hawk
 
