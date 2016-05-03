@@ -102,6 +102,7 @@ We will consider all these barclamps already installed and nodes discovered and 
 <!-- .slide: data-state="normal" id="crm-status-1" data-menu-title="CRM status 1" -->
 ## CRM status 1
 
+Login to one of the controller nodes.
 <img class="crm-status-1" alt="crm-status-1" src="images/hands-on/30-crm-status-1.png" />
 
 
