@@ -24,5 +24,11 @@ neutron port-list | grep vmIP # get portID
 neutron floatingip-associate floatingipID portID
 ```
 
-The VM uses the default security group. Make sure it has ICMP and SSH open.
+The VM uses the default security group. Make sure it has ICMP.
+
+<!-- .slide: data-state="normal" id="test-vm" -->
+## Test VM
+
+We should be able to ping/SSH that VM
+
 
