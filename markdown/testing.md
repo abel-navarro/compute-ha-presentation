@@ -8,14 +8,21 @@
 Let's create a VM to check evacuation/resurrection works
 
 ```sh
-nova boot ...
+source .openrc
+openstack image list
+openstack flavor list
+neutron net-list
+nova boot --image imageID --flavor flavorID --nic net-id=netID testvm
 ```
 
-also
+Let's get it a floating IP
 
 ```sh
-neutron floating-ip assign
+neutron floatingip-create floatingnetID
+nova list # get vmIP
+neutron port-list | grep vmIP # get portID
+neutron floatingip-associate floatingipID portID
 ```
 
-
+The VM uses the default security group. Make sure it has ICMP and SSH open.
 
