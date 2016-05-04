@@ -5,7 +5,8 @@
 <!-- .slide: data-state="normal" id="create-vm" -->
 ## Create a VM
 
-Let's create a VM to check evacuation/resurrection works
+Let's create a VM to check evacuation/resurrection works.
+Connect to one of the controller nodes.
 
 ```sh
 source .openrc
@@ -30,9 +31,18 @@ The VM uses the default security group. Make sure it has ICMP.
 <!-- .slide: data-state="normal" id="test-vm" -->
 ## Test VM
 
-We should be able to ping/SSH that VM
-Check in which host the VM is running
+Things we can look at to check the recovery
+* Recommended in separate windows/terminals
+* From one on the controller nodes
+
+Ping VM:
+```
+ping vmFloatingIP
+```
+
+Ping host where the VM is running
 ```
 nova list --fields host,name
+ping hostIP
 ```
 
