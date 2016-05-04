@@ -82,7 +82,8 @@ reboot
   * NovaEvacuate [...] Initiating evacuation
   * NovaEvacaute [...] Completed evacuation
 * `crm status` shows compute node offline, then back online
-
+* check VM is in another compute node
+  * nova list --fields host,name
 
 <!-- .slide: data-state="normal" id="shared-storage" -->
 ## Shared Storage
