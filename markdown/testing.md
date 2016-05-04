@@ -46,3 +46,16 @@ nova list --fields host,name
 ping hostIP
 ```
 
+Check log messages for Nova Evacuate workflow
+```
+tail -f /var/log/messages | grep NovaEvacuate
+```
+
+Monitor cluster status
+```
+crm_mon
+```
+
+<!-- .slide: data-state="normal" id="shared-storage" -->
+## Shared Storage
+
