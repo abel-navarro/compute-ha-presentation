@@ -79,8 +79,8 @@ reboot
 * Ping to the VM is interrupted, but is resumed
 * Ping to the Compute Node is interrupted, but is resumed
 * Log Messages show:
-** NovaEvacuate [...] Initiating evacuation
-** NovaEvacaute [...] Completed evacuation
+  * NovaEvacuate [...] Initiating evacuation
+  * NovaEvacaute [...] Completed evacuation
 * `crm status` shows compute node offline, then back online
 
 
