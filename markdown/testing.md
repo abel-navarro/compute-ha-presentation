@@ -26,9 +26,13 @@ neutron floatingip-associate floatingipID portID
 
 The VM uses the default security group. Make sure it has ICMP.
 
+
 <!-- .slide: data-state="normal" id="test-vm" -->
 ## Test VM
 
 We should be able to ping/SSH that VM
-
+Check in which host the VM is running
+```
+nova list --fields host,name
+```
 
